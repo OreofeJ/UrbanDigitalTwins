@@ -1,4 +1,4 @@
-# 3D Digital Twin & Solar Yield Predictive Pipeline (Cse Study: University of Ibadan)
+# 3D Digital Twin & Solar Yield Predictive Pipeline (Case Study: University of Ibadan)
 
 This project provides an end-to-end automated pipeline for extracting 3D building stock footprints, simulating micro-climate shading impacts (including surrounding tropical tree canopies), and building physics-informed predictive machine learning models to forecast annual and hourly solar energy generation potential for the University of Ibadan campus.
 
