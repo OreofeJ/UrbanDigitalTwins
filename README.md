@@ -17,7 +17,7 @@ This project provides an end-to-end automated pipeline for extracting 3D buildin
 * **Module 7**: Calculates hourly solar azimuths, altitude angles, and worst-case shadow length vectors during the Winter Solstice.
 * **Module 8**: Generates a procedural 12-meter tropical tree canopy buffer around structures and runs a 2.5D vector shadow casting simulation using spatial R-tree intersections to map precise hourly building occlusions.
 * **Module 9**: Feeds real historical ERA5 climate reanalysis parameters into an optimized **LightGBM GOSS (Gradient-Based One-Side Sampling)** machine learning regressor. It maps complex micro-climate variables (panel overheating, wind speeds, dynamic shading, and soiling) to predict net power output, achieving an $R^2$ score of **0.999**.
-* **Validation**: Compares the LightGBM regressor to Random Forest, XGBoost, and Linear regression baselines, followed by a strict 5-fold temporal cross-validation to guarantee zero seasonal data leakage.
+* **Validation**: Compares the LightGBM regressor to Random Forest, and Linear regression baselines, followed by a strict 5-fold temporal cross-validation to guarantee zero seasonal data leakage.
 
 ### Phase 4: Spatial Context Identification & Interactive Dashboard
 * **Identification Pipeline**: Resolves OSM unnamed buildings by calculating nearest-neighbor distances to campus roads and named landmarks (such as faculties, libraries, and halls of residence), generating highly descriptive smart labels.
